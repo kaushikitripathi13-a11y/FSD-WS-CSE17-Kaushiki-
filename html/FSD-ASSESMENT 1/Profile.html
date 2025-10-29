@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            text-align: center;
+        }
+        h1 {
+            text-decoration: underline;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 60%;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+            vertical-align: middle;
+        }
+        td:first-child {
+            font-weight: bold;
+            width: 25%;
+        }
+        .profile-pic {
+            text-align: center;
+        }
+        img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: block;
+            margin: 10px auto;
+        }
+        .links {
+            text-align: center;
+        }
+        .links a {
+            color: blue;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1><b>Profile Card</b></h1>
+
+    <table>
+        <tr>
+            <td colspan="2" class="profile-pic">
+                <img src="profile.jpg" alt="Profile Picture"><br>
+                <b>Profile Picture</b>
+            </td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>Kaushiki Tripathi</td>
+        </tr>
+        <tr>
+            <td>Role</td>
+            <td>Student (Computer Science)</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><a href="kaushikitripathi13@gmail.com">kaushikitripathi13@gmail.com</a></td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td>+91-9670353672</td>
+        </tr>
+        <tr>
+            <td>About</td>
+            <td>Learning skills</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="links">
+                <a href="#">GitHub</a> | 
+                <a href="#">LinkedIn</a>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
